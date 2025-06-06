@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = 'Map4dMapUtils'
+  s.name             = 'iPostMapUtils'
   s.version          = '1.0.0'
-  s.summary          = 'A utilities library for use with Map4dMap SDK for iOS.'
+  s.summary          = 'A utilities library for use with iPostMap SDK for iOS.'
   s.description      = <<-DESC
-  This library contains classes that are useful for a wide range of applications using the Map4dMap SDK for iOS.
+  This library contains classes that are useful for a wide range of applications using the iPostMap SDK for iOS.
                        DESC
 
   s.author           = 'IOTLink'
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   s.source_files         = "src/**/*.{h,m,swift}"
   
   # Dependencies
-  s.dependency 'Map4dMap', '~> 2.8'
+  s.dependency 'iPostMap', '~> 1.0'
   
 end

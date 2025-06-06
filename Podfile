@@ -6,8 +6,8 @@ target 'demo' do
   use_frameworks!
 
   # Pods for demo
-  pod 'Map4dMap'
-  pod 'Map4dMapUtils', :path => './'
+  pod 'iPostMap'
+  pod 'iPostMapUtils', :path => './'
 
 end
 
