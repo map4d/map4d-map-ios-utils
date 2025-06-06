@@ -13,7 +13,7 @@ Contains:
 
 ## Requirements
 
-- iOS 9.3+
+- iOS 12.0+
 
 ## Installation
 

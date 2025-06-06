@@ -138,12 +138,6 @@ static const double kMFClusterWaitIntervalSeconds = 0.2;
   }
 }
 
-- (void)mapView:(MFMapView *)mapView didReachLimitedZoom:(double)zoom {
-  if ([_mapDelegate respondsToSelector:@selector(mapView:didReachLimitedZoom:)]) {
-    [_mapDelegate mapView:mapView didReachLimitedZoom:zoom];
-  }
-}
-
 - (void)mapview:(MFMapView *)mapView didTapInfoWindowOfMarker:(MFMarker *)marker {
   if ([_mapDelegate respondsToSelector:@selector(mapview:didTapInfoWindowOfMarker:)]) {
     [_mapDelegate mapview:mapView didTapInfoWindowOfMarker:marker];
