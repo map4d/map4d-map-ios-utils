@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 #import <Map4dMap/Map4dMap.h>
-#import <Map4dMapUtils/MarkerCluster.h>
+#import <Map4dMapUtilsDTQG/MarkerCluster.h>
 
 static const NSUInteger kClusterItemCount = 500;
 static const double kCameraLatitude = 16.0432432;
